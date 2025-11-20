@@ -1,7 +1,5 @@
 import pygame
 
-import pygame
-
 class Player:
     def __init__(self, x, y, image_path):
         # Charger l'image de la soucoupe

@@ -1,8 +1,7 @@
 import pygame
 # On importe la bibliothèque pygame pour gérer la fenêtre et le jeu
 
-from player import Player
-
+from ball import Player
 
 
 class Game:
