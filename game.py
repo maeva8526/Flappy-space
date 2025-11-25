@@ -21,8 +21,8 @@ class Game:
         # Booléen qui indique si la boucle principale doit continuer
         self.state = "menu"
         # Etat du jeu : "menu" pour l'instant, plus tard "play"
-        self.ground_y = 750
-        # Position verticale du sol
+        self.ground_y = 760
+        # Position verticale du sol (Taille de l'écran + taille de la soucoupe)
         self.font_title = pygame.font.SysFont(None, 80)
         # Police pour le titre dans le menu
         self.font_text = pygame.font.SysFont(None, 40)

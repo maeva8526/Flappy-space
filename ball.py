@@ -11,7 +11,7 @@ class Player:
 
         # Physique
         self.vy = 0                 # vitesse verticale
-        self.gravity = 0.4          # gravité
+        self.gravity = 0.3          # gravité
         self.jump_strength = -7     # saut
 
     def jump(self):
