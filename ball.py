@@ -6,8 +6,6 @@ class Player:
         self.image = pygame.image.load(image_path).convert_alpha()
         self.image = pygame.transform.scale(self.image, (90, 90))
         self.rect = self.image.get_rect(center=(x, y))
-        self.x = x
-        self.y = y
 
         self.height = 60
 

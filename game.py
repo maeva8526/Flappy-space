@@ -18,7 +18,7 @@ class Game:
         pygame.display.set_caption("Flappy dunk")
         # Définition du titre de la fenêtre
         # FOND
-        self.fond = pygame.image.load("fond étoiles.png").convert_alpha()
+        self.fond = pygame.image.load("fond_etoiles.png").convert_alpha()
         self.fond = pygame.transform.scale(self.fond, (430, 670))
         # Positions initiales des deux fonds
         self.fond_x1 = 0
@@ -128,7 +128,7 @@ class Game:
         # On applique la gravité et on gère le sol
         # Apparition d'une météorite (1 chance sur 120 = environ 0.5 seconde)
         if randint(1, 120) == 1:
-            enemy = Enemy(self.width + 50, randint(50, self.height - 100), "météorite.png")
+            enemy = Enemy(self.width + 50, randint(50, self.height - 100), "meteorite.png")
             self.enemies.append(enemy)
 
         # Mise à jour des météorites
